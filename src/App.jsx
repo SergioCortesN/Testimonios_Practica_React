@@ -9,7 +9,7 @@ export default function App() {
   const [index, setIndex] = useState(0);
   const length = testimonios.length;
   const autoplayRef = useRef(null);
-
+  //correccion
   const next = () => setIndex(prev => (prev + 1) % length);
   const prev = () => setIndex(prev => (prev - 1 + length) % length);
   const random = () => {
