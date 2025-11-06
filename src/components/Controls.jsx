@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Controls({ onPrev, onNext, onRandom }) {
+export default function controls({ onPrev, onNext, onRandom }) {
   return (
     <div className="controls">
       <button onClick={onPrev} aria-label="Anterior">◀</button>
