@@ -1,8 +1,8 @@
 // src/App.jsx
 import React, { useState, useEffect, useRef } from 'react';
-import testimonios from './data';
-import Testimonial from './components/Testimonial';
-import Controls from './components/controls';
+import testimonios from './Data.js';
+import Testimonial from './components/Testimonial.jsx';
+import Controls from './components/controls.jsx';
 import './styles.css';
 
 export default function App() {
