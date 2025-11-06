@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import testimonios from './Data.js';
 import Testimonial from './components/Testimonial.jsx';
-import Controls from './components/controls';
+import Controls from './components/controls.jsx';
 import './styles.css';
 
 export default function App() {
